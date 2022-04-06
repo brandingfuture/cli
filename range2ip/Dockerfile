@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM alpine:latest
+FROM alpine:3.15.4
 
 WORKDIR /range2ip
 COPY build/range2ip ./
