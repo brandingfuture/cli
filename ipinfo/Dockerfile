@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM alpine:latest
+FROM alpine:3.18.3
 
 WORKDIR /ipinfo
 COPY build/ipinfo ./
